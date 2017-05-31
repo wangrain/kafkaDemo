@@ -1,0 +1,176 @@
+[2017-05-30 10:49:55,487] FATAL  (kafka.Kafka$)
+java.io.FileNotFoundException: ../config/server0.properties (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at org.apache.kafka.common.utils.Utils.loadProps(Utils.java:446)
+	at kafka.Kafka$.getPropsFromArgs(Kafka.scala:41)
+	at kafka.Kafka$.main(Kafka.scala:57)
+	at kafka.Kafka.main(Kafka.scala)
+[2017-05-30 10:50:59,756] INFO KafkaConfig values: 
+	request.timeout.ms = 30000
+	log.roll.hours = 168
+	inter.broker.protocol.version = 0.10.0-IV1
+	log.preallocate = false
+	security.inter.broker.protocol = PLAINTEXT
+	controller.socket.timeout.ms = 30000
+	broker.id.generation.enable = true
+	ssl.keymanager.algorithm = SunX509
+	ssl.key.password = null
+	log.cleaner.enable = true
+	ssl.provider = null
+	num.recovery.threads.per.data.dir = 1
+	background.threads = 10
+	unclean.leader.election.enable = true
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	replica.lag.time.max.ms = 10000
+	ssl.endpoint.identification.algorithm = null
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	auto.create.topics.enable = true
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	zookeeper.sync.time.ms = 2000
+	ssl.client.auth = none
+	ssl.keystore.password = null
+	offsets.topic.compression.codec = 0
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.retention.hours = 168
+	log.dirs = /home/zf/kafka/data_kafka/server0_9092
+	ssl.protocol = TLS
+	log.index.size.max.bytes = 10485760
+	sasl.kerberos.min.time.before.relogin = 60000
+	broker.rack = null
+	log.retention.minutes = null
+	connections.max.idle.ms = 600000
+	ssl.trustmanager.algorithm = PKIX
+	offsets.retention.minutes = 1440
+	max.connections.per.ip = 2147483647
+	replica.fetch.wait.max.ms = 500
+	log.message.timestamp.type = CreateTime
+	metrics.num.samples = 2
+	port = 9092
+	offsets.retention.check.interval.ms = 600000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.segment.bytes = 1073741824
+	group.min.session.timeout.ms = 6000
+	producer.purgatory.purge.interval.requests = 1000
+	min.insync.replicas = 1
+	ssl.truststore.password = null
+	socket.receive.buffer.bytes = 102400
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	num.io.threads = 8
+	leader.imbalance.per.broker.percentage = 10
+	zookeeper.connect = 172.30.12.22:2186,172,30,12,33:2186,172.30.12.48:2186
+	queued.max.requests = 500
+	offsets.topic.replication.factor = 3
+	replica.socket.timeout.ms = 30000
+	offsets.topic.segment.bytes = 104857600
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	broker.id = 0
+	ssl.keystore.location = null
+	listeners = PLAINTEXT://:9092
+	log.flush.interval.messages = 9223372036854775807
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	log.retention.ms = null
+	offsets.commit.required.acks = -1
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	group.max.session.timeout.ms = 300000
+	num.replica.fetchers = 1
+	advertised.listeners = PLAINTEXT://127.0.0.1:9092
+	replica.socket.receive.buffer.bytes = 65536
+	delete.topic.enable = false
+	log.index.interval.bytes = 4096
+	metric.reporters = []
+	compression.type = producer
+	log.cleanup.policy = delete
+	log.message.format.version = 0.10.0-IV1
+	controlled.shutdown.max.retries = 3
+	log.cleaner.threads = 1
+	quota.window.size.seconds = 1
+	zookeeper.connection.timeout.ms = 6000
+	offsets.load.buffer.size = 5242880
+	zookeeper.session.timeout.ms = 6000
+	ssl.cipher.suites = null
+	authorizer.class.name = 
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.service.name = null
+	controlled.shutdown.enable = true
+	offsets.topic.num.partitions = 50
+	quota.window.num = 11
+	message.max.bytes = 1000012
+	log.cleaner.backoff.ms = 15000
+	log.roll.jitter.hours = 0
+	log.retention.check.interval.ms = 300000
+	replica.fetch.max.bytes = 1048576
+	log.cleaner.delete.retention.ms = 86400000
+	fetch.purgatory.purge.interval.requests = 1000
+	log.cleaner.min.cleanable.ratio = 0.5
+	offsets.commit.timeout.ms = 5000
+	zookeeper.set.acl = false
+	log.retention.bytes = -1
+	offset.metadata.max.bytes = 4096
+	leader.imbalance.check.interval.seconds = 300
+	quota.consumer.default = 9223372036854775807
+	log.roll.jitter.ms = null
+	reserved.broker.max.id = 1000
+	replica.fetch.backoff.ms = 1000
+	advertised.host.name = null
+	quota.producer.default = 9223372036854775807
+	log.cleaner.io.buffer.size = 524288
+	controlled.shutdown.retry.backoff.ms = 5000
+	log.dir = /tmp/kafka-logs
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.segment.delete.delay.ms = 60000
+	num.partitions = 1
+	num.network.threads = 3
+	socket.request.max.bytes = 104857600
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	log.roll.ms = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	socket.send.buffer.bytes = 102400
+	log.flush.interval.ms = null
+	ssl.truststore.location = null
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	default.replication.factor = 1
+	metrics.sample.window.ms = 30000
+	auto.leader.rebalance.enable = true
+	host.name = 
+	ssl.truststore.type = JKS
+	advertised.port = null
+	max.connections.per.ip.overrides = 
+	replica.fetch.min.bytes = 1
+	ssl.keystore.type = JKS
+ (kafka.server.KafkaConfig)
+[2017-05-30 10:50:59,893] INFO starting (kafka.server.KafkaServer)
+[2017-05-30 10:50:59,909] INFO Connecting to zookeeper on 172.30.12.22:2186,172,30,12,33:2186,172.30.12.48:2186 (kafka.server.KafkaServer)
+[2017-05-30 10:51:00,469] INFO Log directory '/home/zf/kafka/data_kafka/server0_9092' not found, creating it. (kafka.log.LogManager)
+[2017-05-30 10:51:00,483] INFO Loading logs. (kafka.log.LogManager)
+[2017-05-30 10:51:00,501] INFO Logs loading complete. (kafka.log.LogManager)
+[2017-05-30 10:51:00,763] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2017-05-30 10:51:00,769] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2017-05-30 10:51:00,779] WARN No meta.properties file under dir /home/zf/kafka/data_kafka/server0_9092/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2017-05-30 10:51:00,886] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2017-05-30 10:51:00,893] INFO [Socket Server on Broker 0], Started 1 acceptor threads (kafka.network.SocketServer)
+[2017-05-30 10:51:00,943] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-05-30 10:51:00,945] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-05-30 10:51:01,057] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-05-30 10:51:01,067] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-05-30 10:51:01,067] INFO 0 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2017-05-30 10:51:01,147] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-05-30 10:51:01,148] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-05-30 10:51:01,158] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2017-05-30 10:51:01,158] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2017-05-30 10:51:01,162] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 7 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-05-30 10:51:01,175] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-05-30 10:51:01,176] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-05-30 10:51:01,181] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2017-05-30 10:51:01,203] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-05-30 10:51:01,209] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-05-30 10:51:01,211] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT -> EndPoint(127.0.0.1,9092,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-05-30 10:51:01,211] WARN No meta.properties file under dir /home/zf/kafka/data_kafka/server0_9092/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2017-05-30 10:51:01,235] INFO New leader is 0 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2017-05-30 10:51:01,239] INFO [Kafka Server 0], started (kafka.server.KafkaServer)
+[2017-05-30 10:59:40,006] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [test,0] (kafka.server.ReplicaFetcherManager)
+[2017-05-30 10:59:40,064] INFO Completed load of log test-0 with log end offset 0 (kafka.log.Log)
+[2017-05-30 10:59:40,071] INFO Created log for partition [test,0] in /home/zf/kafka/data_kafka/server0_9092 with properties {flush.messages -> 9223372036854775807, message.timestamp.type -> CreateTime, segment.bytes -> 1073741824, preallocate -> false, cleanup.policy -> delete, delete.retention.ms -> 86400000, segment.ms -> 604800000, min.insync.replicas -> 1, file.delete.delay.ms -> 60000, retention.ms -> 604800000, max.message.bytes -> 1000012, message.format.version -> 0.10.0-IV1, index.interval.bytes -> 4096, segment.index.bytes -> 10485760, retention.bytes -> -1, segment.jitter.ms -> 0, min.cleanable.dirty.ratio -> 0.5, compression.type -> producer, unclean.leader.election.enable -> true, message.timestamp.difference.max.ms -> 9223372036854775807, flush.ms -> 9223372036854775807}. (kafka.log.LogManager)
+[2017-05-30 10:59:40,073] INFO Partition [test,0] on broker 0: No checkpointed highwatermark is found for partition [test,0] (kafka.cluster.Partition)

@@ -1,0 +1,26 @@
+2017-05-30 08:59:44,646 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /home/zf/kafka/zookeeper-3.4.8/bin/../conf/zoo.cfg
+2017-05-30 08:59:44,657 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2017-05-30 08:59:44,658 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2017-05-30 08:59:44,658 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2017-05-30 08:59:44,659 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2017-05-30 08:59:44,693 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /home/zf/kafka/zookeeper-3.4.8/bin/../conf/zoo.cfg
+2017-05-30 08:59:44,694 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2017-05-30 08:59:44,713 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2017-05-30 08:59:44,714 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=vm-22
+2017-05-30 08:59:44,714 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.7.0_55
+2017-05-30 08:59:44,714 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-05-30 08:59:44,715 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/opt/jdk1.7.0_55/jre
+2017-05-30 08:59:44,715 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/zf/kafka/zookeeper-3.4.8/bin/../build/classes:/home/zf/kafka/zookeeper-3.4.8/bin/../build/lib/*.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../lib/slf4j-api-1.6.1.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../lib/netty-3.7.0.Final.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../lib/log4j-1.2.16.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../lib/jline-0.9.94.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../zookeeper-3.4.8.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../src/java/lib/*.jar:/home/zf/kafka/zookeeper-3.4.8/bin/../conf:.:/opt/jdk1.7.0_55/lib/dt.jar:/opt/jdk1.7.0_55/lib/tools.jar:/opt/jdk1.7.0_55/jre/lib/rt.jar
+2017-05-30 08:59:44,715 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2017-05-30 08:59:44,716 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-05-30 08:59:44,716 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2017-05-30 08:59:44,721 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2017-05-30 08:59:44,721 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2017-05-30 08:59:44,722 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=2.6.32-358.el6.x86_64
+2017-05-30 08:59:44,722 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=zf
+2017-05-30 08:59:44,722 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/zf
+2017-05-30 08:59:44,722 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/zf/kafka/zookeeper-3.4.8
+2017-05-30 08:59:44,740 [myid:] - INFO  [main:ZooKeeperServer@787] - tickTime set to 2000
+2017-05-30 08:59:44,740 [myid:] - INFO  [main:ZooKeeperServer@796] - minSessionTimeout set to -1
+2017-05-30 08:59:44,741 [myid:] - INFO  [main:ZooKeeperServer@805] - maxSessionTimeout set to -1
+2017-05-30 08:59:44,766 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2186

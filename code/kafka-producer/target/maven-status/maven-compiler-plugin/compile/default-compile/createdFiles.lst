@@ -1,0 +1,4 @@
+com\rm\kafka\producer\MainClass.class
+com\rm\kafka\producer\serviceImpl\KafkaProducerServiceImpl$1.class
+com\rm\kafka\producer\serviceImpl\KafkaProducerServiceImpl.class
+com\rm\kafka\producer\service\KafkaProducerService.class
