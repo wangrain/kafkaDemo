@@ -16,6 +16,7 @@
       <module name="kafka-config" target="1.7" />
       <module name="kafka-consumer" target="1.7" />
       <module name="kafka-producer" target="1.7" />
+      <module name="KafkaServiceDemo" target="1.7" />
       <module name="KafkaServiceJarDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>

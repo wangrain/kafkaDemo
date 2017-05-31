@@ -5,41 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rm.kafka</groupId>
-    <artifactId>KafkaServiceJarDemo</artifactId>
+    <artifactId>KafkaServiceDemo</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
 
     <modules>
-        <module>kafka-config</module>
         <module>kafka-producer</module>
         <module>kafka-consumer</module>
     </modules>
-    <dependencies>
-
-        <!-- Spring 相关包 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>4.3.8.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>4.3.8.RELEASE</version>
-        </dependency>
-        <!-- kafka队列包 -->
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
-            <version>0.10.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.8</version>
-        </dependency>
-    </dependencies>
     <build>
         <plugins>
             <plugin>
