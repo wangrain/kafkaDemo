@@ -1,4 +1,8 @@
 # kafkaDemo
+> 参考资料：<br>
+> [《Kafka 0.9+Zookeeper3.4.6集群搭建、配置，新Client API的使用要点，高可用性测试，以及各种坑》](http://www.cnblogs.com/kelgon/articles/5362409.html)<br>
+> [《Kafka深度解析》](http://www.jasongj.com/2015/01/02/Kafka%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/)<br>
+> [《kafka中文教程》](http://www.orchome.com/kafka/index)
 
 ## 1. 搭建zookeeper集群  ##
 ### 1.1 配置~/kafka/zookeeper-3.4.8/conf/zoo.cfg ###
