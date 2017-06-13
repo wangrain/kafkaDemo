@@ -1,7 +1,6 @@
 package com.rm.kafka.producer.serviceImpl;
 
 import com.rm.kafka.producer.service.KafkaProducerService;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -10,7 +9,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.util.Properties;
 
-@Slf4j
 @Service
 public class KafkaProducerServiceImpl implements KafkaProducerService {
     @Value("${kafka.bootstrap.servers}")

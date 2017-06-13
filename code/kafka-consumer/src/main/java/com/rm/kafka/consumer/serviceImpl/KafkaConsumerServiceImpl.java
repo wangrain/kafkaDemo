@@ -1,7 +1,6 @@
 package com.rm.kafka.consumer.serviceImpl;
 
 import com.rm.kafka.consumer.service.KafkaConsumerService;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -21,7 +20,6 @@ import java.util.Properties;
  * 日期:   2017/5/29
  * 简介:
  */
-@Slf4j
 @Service
 public class KafkaConsumerServiceImpl implements KafkaConsumerService {
 
@@ -85,7 +83,7 @@ public class KafkaConsumerServiceImpl implements KafkaConsumerService {
          * 该组下的Consumer无法再拉取到该消息（除非手动修改offset）。
          * 默认为true
          */
-        props.put("enable.auto.commit", "true");//标记为false后，需要主动调用commitSync标记处理成功
+        props.put("enable.auto.commit", "false");//标记为false后，需要主动调用commitSync标记处理成功
         /**
          * 自动提交offset的间隔毫秒数，默认5000。
          */

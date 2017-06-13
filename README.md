@@ -39,6 +39,8 @@ listeners=PLAINTEXT://:9092
 advertised.host.name=172.30.12.22
 advertised.port=9092
 advertised.listeners=PLAINTEXT://172.30.12.22:9092
+#kafka本地消息存储路径
+log.dirs=/home/zf/kafka/data_kafka/server0_9092
 # 消息保留的时间，单位为小时
 log.retention.hours=168
 # zookeeper集群地址

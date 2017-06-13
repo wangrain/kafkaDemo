@@ -60,6 +60,7 @@ public class MainClass {
                         ConsumerRecords<String, String> consumerRecords = kafkaProducerService.poll();
                         for (ConsumerRecord<String, String> consumerRecord : consumerRecords) {
                             insertIntoDb(consumerRecord);
+                            kafkaProducerService.commitSync();
                         }
                     }
                 }finally {
@@ -77,5 +78,6 @@ public class MainClass {
                 "value(" + consumerRecord.value()+")");
         System.out.println("处理成功！");
         System.exit(0);
+        throw new RuntimeException("eee");
     }
 }
